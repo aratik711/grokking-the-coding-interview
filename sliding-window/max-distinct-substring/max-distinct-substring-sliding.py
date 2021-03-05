@@ -17,7 +17,8 @@ Input: String="cbbebi", K=3
 Output: 5
 Explanation: The longest substrings with no more than '3' distinct characters are "cbbeb" & "bbebi".
 
-Time complexity O(n+n)
+Time complexity O(n+n) = O(n)
+space complexity O(k)
 
 """
 def longest_substring_with_k_distinct(str, k):
